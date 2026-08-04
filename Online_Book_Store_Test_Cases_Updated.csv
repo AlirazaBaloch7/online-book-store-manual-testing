@@ -1,0 +1,41 @@
+Test Case ID,Test Case Title,Module,Priority,Test Type,Test Steps,Expected Result,Status
+TC-001,Register User with Valid Details,Authentication,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-002,Register with Existing Email,Authentication,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-003,Register with Invalid Email Format,Authentication,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-004,Register with Weak Password,Authentication,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-005,Login with Valid Credentials,Authentication,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-006,Login with Invalid Password,Authentication,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-007,Login with Empty Fields,Authentication,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Failed
+TC-008,Logout Successfully,Authentication,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-009,Browse Available Books,Book Catalog,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-010,Browse Books by Category,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-011,Browse Best Seller Books,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-012,Browse Featured Books,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-013,Search Book by Title,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-014,Search Book by Author,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-015,Search Book Using Invalid Keyword,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Failed
+TC-016,Search Book with Empty Search Box,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-017,View Book Details,Book Catalog,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-018,Verify Book Price Display,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-019,Verify Book Availability,Book Catalog,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-020,Add Book to Shopping Cart,Shopping Cart,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-021,Add Multiple Books to Cart,Shopping Cart,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-022,Update Book Quantity,Shopping Cart,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-023,Remove Book from Cart,Shopping Cart,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-024,Empty Shopping Cart,Shopping Cart,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-025,Proceed to Checkout,Checkout,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-026,Enter Valid Shipping Address,Checkout,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-027,Submit Checkout with Missing Address,Checkout,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-028,Review Order Before Payment,Checkout,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-029,Complete Payment with Valid Card,Payment,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-030,Payment with Invalid Card Number,Payment,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Failed
+TC-031,Payment with Expired Card,Payment,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-032,Cancel Payment,Payment,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-033,Verify Order Confirmation After Successful Payment,Order Management,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-034,Verify Order Appears in Order History,Order Management,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-035,View Order Details,Order Management,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-036,Update User Profile,User Profile,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-037,Upload Profile Picture,User Profile,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-038,Change Password,User Profile,High,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
+TC-039,Change Password with Incorrect Current Password,User Profile,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Failed
+TC-040,Logout After Profile Update,User Profile,Medium,Functional,Refer to detailed test steps in Testworthy/Test Plan.,System behaves as expected for the defined scenario.,Passed
