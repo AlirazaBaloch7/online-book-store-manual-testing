@@ -80,13 +80,6 @@ online-book-store-manual-testing/
 ├── High_Level_Test_Plan.docx
 ├── Online_Book_Store_Test_Cases.csv
 ├── Test_Run_Report.pdf
-│
-└── Screenshots/
-    ├── Project_Dashboard.png
-    ├── Test_Cases.png
-    ├── Test_Run.png
-    ├── Execution_Results.png
-    └── Reports.png
 ```
 
 ---
